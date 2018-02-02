@@ -1,0 +1,173 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/5/31
+ * Description：config content edit
+ */
+
+.config-content-edit {
+    //布局
+    background: #f7f7f7;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    .edit-element, .edit-content {
+        height: 100%;
+        overflow: hidden;
+        transition: all 0.5s ease 0s;
+    }
+    .edit-element {
+        order: 0;
+        flex: 0 0 220px;
+    }
+    .edit-content {
+        order: 2;
+        flex: 1 1 auto;
+    }
+    .edit-element-content, .edit-content-content {
+        background: #fff;
+        border-right: 1px solid #d9d9d9;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .edit-content-content {
+        background: #ececec;
+        border-right: none;
+    }
+
+    //内容
+    .element-wraper {
+        .button-wraper {
+            margin-bottom: 6px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: flex-start;
+            a {
+                background: url("./img/icon.png") no-repeat left top;
+                border: 1px solid #ffffff;
+                box-sizing: content-box;
+                display: block;
+                height: 36px;
+                width: 36px;
+                transition: all 0.2s ease-out 0s;
+                &:hover, &.active {
+                    border: 1px solid #108ee9;
+                    border-radius: 100%;
+                    opacity: 0.9;
+                }
+                &.placeholder {
+                    background: none;
+                    border: none;
+                    cursor: default;
+                }
+                &.layout-row {
+                    background-position: -72px 0;
+                }
+                &.layout-tab {
+                    background-position: -36px 0;
+                }
+                &.layout-column {
+                    background-position: 0 0;
+                }
+                &.chart-line {
+                    background-position: -180px 0;
+                }
+                &.chart-pie {
+                    background-position: -216px 0;
+                }
+                &.chart-bar {
+                    background-position: -144px 0;
+                }
+                &.chart-rbar {
+                    background-position: -360px 0;
+                }
+                &.chart-table {
+                    background-position: -108px 0;
+                }
+                &.chart-map {
+                    background-position: -324px 0;
+                }
+                &.chart-scatter {
+                    background-position: -288px 0;
+                }
+                &.chart-radar {
+                    background-position: -504px 0;
+                }
+                &.chart-funnel {
+                    background-position: -756px 0;
+                }
+                &.control-query {
+                    background-position: -612px 0;
+                }
+                &.control-text {
+                    background-position: -576px 0;
+                }
+            }
+        }
+        .parameter-title {
+            padding: 0 16px;
+            background: #f7f7f7;
+            color: rgba(0, 0, 0, 0.65);
+            font-size: 12px;
+            line-height: 28px;
+        }
+        .parameter-content {
+            padding: 10px 16px;
+            &.reload-chart {
+                border-top: 1px solid #d9d9d9;
+                text-align: right;
+            }
+            .ant-input-number{
+                width: 100%;
+            }
+            textarea {
+                width:100%;
+                padding: 4px 7px;
+                min-height: 90px;
+                resize: none;
+                line-height: 20px;
+            }
+        }
+        //修改ant默认样式
+        .layout-content-control .ant-collapse-header {
+            border-top: 1px solid #108ee9;
+        }
+        .ant-collapse-header, .ant-tabs-nav-scroll {
+            background: #f0f0f0;
+        }
+        .ant-tabs-nav-scroll {
+            border-top: 1px solid #108ee9;
+        }
+        .parameter-content {
+            padding: 16px;
+        }
+        .ant-tabs-bar {
+            margin-bottom: 0;
+        }
+        .ant-collapse-content-box {
+            padding: 16px 0 10px 0;
+        }
+        .ant-form-item {
+            margin-bottom: 0;
+        }
+        .ant-form-item-label {
+            line-height: 32px;
+            text-align: left;
+        }
+        .data-sort {
+            .ant-form-item {
+                margin-bottom: 6px;
+            }
+        }
+    }
+    .content-wraper {
+        padding: 16px;
+        position: relative;
+        min-height: 100%;
+    }
+}

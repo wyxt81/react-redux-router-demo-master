@@ -1,0 +1,38 @@
+/**
+ * Author：dengyu
+ * Time：2017/7/28
+ * Description：queryDateOne
+ */
+
+.query-date-one{
+  span{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+  }
+  .rdt{
+    float: left;
+    width: 90px;
+    input{
+      position: relative;
+      outline: none;
+      display: inline-block;
+      padding: 4px 7px;
+      width: 100%;
+      height: 32px;
+      cursor: text;
+      font-size: 12px;
+      line-height: 1.5;
+      color: rgba(0,0,0,.65);
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+    }
+    input::placeholder{
+      color: #ccc;
+    }
+  }
+}

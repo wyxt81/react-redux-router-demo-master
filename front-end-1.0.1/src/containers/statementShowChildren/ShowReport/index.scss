@@ -1,0 +1,23 @@
+/**
+ * Author：dengyu
+ * Time：2017/6/30
+ * Description：show report
+ */
+
+.show-report{
+  background: #ececec;
+  .ant-card {
+    height: 100%;
+    .ant-card-body {
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+  .ant-card-extra {
+    margin-top: -4px;
+    button {
+      margin-left: 5px;
+    }
+  }
+}

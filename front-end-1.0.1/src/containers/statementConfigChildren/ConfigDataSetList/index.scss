@@ -1,0 +1,41 @@
+@charset "utf-8";
+/**
+ * Author：zhoushuanglong
+ * Time：5/28/2017
+ * Description：config dataset list
+ */
+
+.config-dataset-list {
+    .dataset-collapse {
+        border: 1px solid #f3f3f3;
+        box-shadow: none;
+    }
+    .dataset-panel {
+        background: #f7f7f7;
+        margin-bottom: 1px;
+        border: none;
+        border-bottom: 1px solid #f3f3f3;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    .config-dataset-search {
+        margin-bottom: 10px;
+        label{
+            margin-left: 9px;
+            margin-right: 9px;
+        }
+        input{
+            width: 200px;
+            margin-right: 9px;
+        }
+        button{
+            margin-right: 9px;
+        }
+    }
+    table {
+        button {
+            margin-right: 10px;
+        }
+    }
+}

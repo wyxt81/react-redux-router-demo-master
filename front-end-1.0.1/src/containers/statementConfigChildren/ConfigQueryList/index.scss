@@ -1,0 +1,28 @@
+@charset "utf-8";
+/**
+ * Author：dengyu
+ * Time：2017/7/11
+ * Description：config query list
+ */
+
+.config-query-list {
+  .config-query-search {
+    margin-bottom: 10px;
+    label{
+      margin-left: 9px;
+      margin-right: 9px;
+    }
+    input{
+      width: 200px;
+      margin-right: 9px;
+    }
+    button{
+      margin-right: 9px;
+    }
+  }
+  table {
+    button {
+      margin-right: 10px;
+    }
+  }
+}

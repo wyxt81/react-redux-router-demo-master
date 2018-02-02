@@ -1,0 +1,25 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/5/26
+ * Description：config content
+ */
+
+.config-content {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    overflow: hidden;
+    .ant-card {
+        height: 100%;
+        .ant-card-body {
+            padding: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    }
+    .ant-card-extra {
+        margin-top: -4px;
+        button {
+            margin-left: 5px;
+        }
+    }
+}

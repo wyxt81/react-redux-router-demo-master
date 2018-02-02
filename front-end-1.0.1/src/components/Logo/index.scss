@@ -1,0 +1,42 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/5/11
+ * Description：Description
+ */
+
+.logo {
+    height: 64px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s ease-in 0s;
+    &.logo-light {
+        background: #fff;
+    }
+    img {
+        &.logo {
+            display: inline-block;
+            margin-top: 7px;
+            margin-left: -13px;
+            height: 46px;
+        }
+        &.orca {
+            display: none;
+            margin-top: 8px;
+            width: 60%;
+        }
+    }
+    &.active {
+        margin: 9px;
+        border-radius: 100%;
+        height: 46px;
+        width: 46px;
+        img {
+            &.logo {
+                display: none;
+            }
+            &.orca {
+                display: inline-block;
+            }
+        }
+    }
+}

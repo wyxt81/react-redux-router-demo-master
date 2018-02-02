@@ -1,0 +1,25 @@
+/**
+ * Author：dengyu
+ * Time：2017/7/28
+ * Description：query compare
+ */
+
+.query-compare{
+  span{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .ant-switch{
+    margin: 0 5px 5px 0;
+  }
+  .ant-switch-inner{
+    margin-left: 13px;
+    margin-right: 0;
+  }
+  .ant-switch-checked{
+    .ant-switch-inner{
+      margin-left: 0;
+      margin-right: 13px;
+    }
+  }
+}
